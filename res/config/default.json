@@ -10,24 +10,24 @@
 	"freeVoteThreshold": 20.0,
 	"rayRemovalThreshold": 100.0,
 	"vertexRemovalThreshold": 100.0,
-	"primary_points_visibility_threshold": 2,
+	"primary_points_visibility_threshold": 1,
 	"outlierFilteringThreshold": 0.25,
 	"maxPointsPerCamera": 1000000,
 	"minDistancePointPositionUpdate": 0.0,
 	
-	"maxDistanceCamFeature": 40.0,
-	"steinerGridStepLength": 20.0,
+	"maxDistanceCamFeature": 20.0,
+	"steinerGridStepLength": 10.0,
 	
 	"manifold_update_every": 4,
 	"initial_manifold_update_skip": 2,
-	"save_manifold_every": 10,
+	"save_manifold_every": 50,
 	
-	"time_stats_output": true,
+	"time_stats_output": false,
 	"all_sort_of_output": false,
 	"fake_points_multiplier": 0,
 	"update_points_position": false,
 	
-	"output_folder": "res/output/",
+	"output_folder": "res/output_mix_random_orb/",
 	"time_stats_folder": "res/stats/",
 	"count_stats_folder": "res/stats/",
 	"statsId": "default"
